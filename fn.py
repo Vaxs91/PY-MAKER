@@ -48,7 +48,10 @@ bot = commands.Bot(
     auth=fortnitepy.AdvancedAuth(
         email=data['email'],
         password=data['password'],
-        platform=data['platform'],
+        platform=fortnitepy.Platform(data['platform']),
+        avatar=fortnitepy.Avatar(
+        asset="cid_028_ff2b06cf446376144ba408d3482f5c982bf2584cf0f508ee3e4ba4a0fd461a38",
+        background_colors=fortnitepy.KairosBackgroundColorPreset.PINK.value)
         prompt_authorization_code=True,
         delete_existing_device_auths=True,
         **device_auth_details
