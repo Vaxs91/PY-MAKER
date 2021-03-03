@@ -90,7 +90,10 @@ async def event_party_member_join(ctx):
     await bot.party.me.set_banner(season_level=int(999))
     await bot.party.me.set_banner("InfluencerBanner38")
 
-
+@bot.command()
+async def status(ctx: fortnitepy.ext.commands.Context, content: str) -> None:
+    await bot.set_presence(content)
+    await ctx.send("STATUS DÉFINI SUR: " + content)
 
 @bot.command()
 async def level(ctx: fortnitepy.ext.commands.Context, content: str) -> None:
