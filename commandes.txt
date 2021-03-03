@@ -4,3 +4,4 @@
 !stop = STOP THE EMOTE OF THE BOT: !stop
 Sorry for scenario form ikonik Sorry
 !scenario = THE SCENARIO EMOTE OF IKONIK
+!status = SET THE STATUS OF THE BOT: !status BY VAXS RSB
