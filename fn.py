@@ -77,7 +77,7 @@ async def event_ready():
     print(bot.user.display_name)
     print(bot.user.id)
     print('----------------')
-    await bot.party.me.platform(bot.platform)
+    await bot.set_presence("BOT BY VAXS RSB")
 
 
 @bot.event()
@@ -166,6 +166,9 @@ async def event_party_invite(invite: fortnitepy.ReceivedPartyInvitation) -> None
 
 
 
+    @bot.command()
+async def e(ctx: fortnitepy.ext.commands.Context):
+    await bot.party.me.leave()
 
 
 
