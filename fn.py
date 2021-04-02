@@ -61,6 +61,9 @@ FortniteAPI = FortniteAPIAsync.APIClient()
 async def event_device_auth_generate(details, email):
     store_device_auth_details(email, details)
 
+print(crayons.cyan("GO SUBCRIBE TO MY CHANNEL YOUTUBE: https://www.youtube.com/channel/UCIK7oxSNPt8MCrphoL5MEPA"))
+print(crayons.cyan("IF YOU WONT TO SUPPORT ME USE CODE VAXS-RSB IN THE ITEM SHOP!"))    
+    
 @bot.event
 async def event_ready():
     print('██████╗ ██╗   ██╗     ██████╗  ██████╗ ████████╗')
