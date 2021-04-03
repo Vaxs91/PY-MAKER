@@ -1,1 +1,9 @@
-{"email": "email@email.com", "password": "password1", "debug": false}
+{
+    "email": "email@email.com",
+    "password": "password",
+    "level": 999,
+    "cid": "CID_313_Athena_Commando_M_KpopFashion",
+    "eid": "EID_KPopDance03",
+    "author_id": "your epic id",
+    "debug": false
+}
