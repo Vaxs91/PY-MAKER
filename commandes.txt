@@ -1,4 +1,4 @@
-"prefi"skin = CHANGE THE BOT SKIN: !skin ikonik
+"prefix"skin = CHANGE THE BOT SKIN: !skin ikonik
 "prefix"emote = SET THE EMOTE OF THE BOT:  !emote renegade
 "prefix"level =  SET THE LEVEL/RANK OF THE BOT: !level 96
 "prefix"stop = STOP THE EMOTE OF THE BOT: !stop
