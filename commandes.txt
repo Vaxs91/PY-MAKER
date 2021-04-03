@@ -1,7 +1,6 @@
-!skin = CHANGE THE BOT SKIN: !skin ikonik
-!emote = SET THE EMOTE OF THE BOT:  !emote renegade
-!level =  SET THE LEVEL/RANK OF THE BOT: !level 96
-!stop = STOP THE EMOTE OF THE BOT: !stop
-Sorry for scenario form ikonik Sorry
-!scenario = THE SCENARIO EMOTE OF IKONIK
-!status = SET THE STATUS OF THE BOT: !status BY VAXS RSB
+"prefi"skin = CHANGE THE BOT SKIN: !skin ikonik
+"prefix"emote = SET THE EMOTE OF THE BOT:  !emote renegade
+"prefix"level =  SET THE LEVEL/RANK OF THE BOT: !level 96
+"prefix"stop = STOP THE EMOTE OF THE BOT: !stop
+"prefix"Sorry for scenario form ikonik Sorry
+"prefix"scenario = THE SCENARIO EMOTE OF IKONIK #FREE SCENARIO
