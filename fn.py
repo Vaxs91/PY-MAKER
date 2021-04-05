@@ -74,7 +74,7 @@ async def event_ready():
     print('██║        ██║        ██████╔╝╚██████╔╝   ██║   ')
     print('╚═╝        ╚═╝        ╚═════╝  ╚═════╝    ╚═╝   ')
     print('----------------')
-    print(crayons.green('[PY MAKER, LAUNCHER] BOT READY AS: ' + bot.user.name + ", " + bot.user.id))
+    print(crayons.green('[PY MAKER, LAUNCHER] BOT READY AS: ' + bot.user.display_name + ", " + bot.user.id))
     print('----------------')
     await bot.set_presence(bot.user.display_name + " BY VAXS RSB")
 
